@@ -1,6 +1,6 @@
-# Chatgpt Node.js Application
+# Freight Forwarding Web App
 
-This repository contains a simple Node.js application using Express.
+This repository contains a simple Node.js web application for a fictional freight forwarding service called **Voyager Freight**. The app demonstrates basic page routing using Express and EJS templates.
 
 ## Setup
 
@@ -13,4 +13,9 @@ This repository contains a simple Node.js application using Express.
    npm start
    ```
 
-The server listens on port `3000` by default and responds with `Hello World from Node.js application` at the root URL.
+The server listens on port `3000` by default. Available pages:
+
+- `/` Home
+- `/about` About us
+- `/services` Our services
+- `/contact` Contact information
